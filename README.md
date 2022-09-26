@@ -13,10 +13,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-git remote add origin https://github.com/tomhughes87/frontend_icecream_store.git
-git branch -M main
-git push -u origin main
-
 ### `npm start`
 (but cd to correct folder first)
 
