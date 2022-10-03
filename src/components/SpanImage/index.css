@@ -1,0 +1,11 @@
+#SpanImage{
+    width: 70%;
+    margin-left: 50% auto;
+    margin-right: 50% auto;
+}
+
+#SpanImageContainer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(187, 210, 232);
+}
