@@ -7,6 +7,14 @@ export default function Home() {
     {/* <div>Home</div> */}
       <SpanImage/>
     {/* <div>end of home</div> */}
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <SpanImage/>
+
+
     </>
   )
 }

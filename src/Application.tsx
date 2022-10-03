@@ -1,6 +1,7 @@
-import React from 'react'
+import React,{ useRef} from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
+import NotificationBar from './components/NotificationBar'
 import About from './pages/About'
 import Home from './pages/Home'
 import PageNotFound from './pages/PageNotFound'
@@ -8,6 +9,9 @@ import PageNotFound from './pages/PageNotFound'
 export default function Application() {
   return (
 <>
+    <NotificationBar />
+    
+
     <BrowserRouter>
         <Routes>
             <Route path='/' element={<Home/>}/>
@@ -22,6 +26,7 @@ export default function Application() {
 
         </Routes>
     </BrowserRouter>
+
     <Footer/>
     </>  
 
