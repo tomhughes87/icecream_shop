@@ -1,7 +1,7 @@
 import React,{ useRef} from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
-import NotificationBar from './components/NotificationBar'
+import NotificationBarParent from './components/NotificationBarParent'
 import About from './pages/About'
 import Home from './pages/Home'
 import PageNotFound from './pages/PageNotFound'
@@ -9,7 +9,7 @@ import PageNotFound from './pages/PageNotFound'
 export default function Application() {
   return (
 <>
-    <NotificationBar />
+    <NotificationBarParent />
     
 
     <BrowserRouter>
