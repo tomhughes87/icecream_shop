@@ -1,4 +1,4 @@
-#NavBarContainer{
+#NavBar-Container{
     width: 100%;
     height: 100px;
     background-color: violet;
@@ -8,7 +8,7 @@
     gap: 2rem;
 }
 
-#left, #right{
+#NavBar-LeftSection, #NavBar-RightSection{
     height: 100px;
     width: 40px;
     padding: 0;
@@ -25,32 +25,39 @@
 
 }
 
-#left li p{
+.NavLink-Text{
     color: rgba(225, 225, 225, 0.815);
-    /* transition: 1s; */
+    transition: 0.5s;
 }
 
+/* turn this off to go back to left> right underline */
+.NavLink-Container{ 
+    display: grid;
+    justify-items: center;
+}
 
-.underline{
+.NavLink-Underline{
     width: 0px;
     height: 5px;
-    transition: 1s;
+    transition: 0.5s;
     /* background-color: tomato; */
+    border-radius: 5px;
 }
 
-
-#left li:hover p{
+.NavLink-Container:hover .NavLink-Text{
     color: rgb(255, 255, 255);
-    font-weight: 700;
+    font-size: 105%;
  }
 
-#left li:hover .underline{
+ .NavLink-Container:hover .NavLink-Underline{
    color: rgb(255, 255, 255);
-   /* font-weight: 700; */
     width: 100%;
     height: 5px;
     background-color: rgb(242, 242, 242);
 }
+
+
+
 
 
 
@@ -86,13 +93,3 @@
 }
 
 
-
-/* #underline:hover{
-    background-color: silver;
-} */
-
-/* #left li p:hover + .underline{
-    color: rgb(207, 169, 169);
-    background-color: yellowgreen;
-    font-weight: 700;
- } */

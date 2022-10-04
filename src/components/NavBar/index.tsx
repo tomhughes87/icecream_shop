@@ -6,31 +6,27 @@ import accountIcon from './accountIcon.png'
 export default function NavBar() {
   return (
         <>
-    <div id='NavBarContainer'>
-        <ul id='left'>
-            <li>
-                <p>Menu</p>
-                <div className="underline"></div>
+    <div id='NavBar-Container'>
+        <ul id='NavBar-LeftSection'>
+            <li className='NavLink-Container'>
+                <p className='NavLink-Text'>Menu</p>
+                <div className="NavLink-Underline"></div>
             </li>
             
-            <li>
-                <p>Promos</p>
-                <div className="underline"></div>
+            <li className='NavLink-Container'>
+                <p className='NavLink-Text'>Promos</p>
+                <div className="NavLink-Underline"></div>
             </li>
 
-            <li>
-                <p>Quiz</p>
-                <div className="underline"></div>
+            <li className='NavLink-Container'>
+                <p className='NavLink-Text'>Quiz</p>
+                <div className="NavLink-Underline"></div>
             </li>
             
         </ul>
 
-    {/* <div id='right'>
-        <p>user</p>
-        <p>backet</p>
-    </div> */}
 
-    <ul id='right'>
+    <ul id='NavBar-RightSection'>
             <li>Account</li>
             
 
