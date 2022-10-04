@@ -12,6 +12,7 @@ top: 0px;
 display: flex;
 align-content: center;
 justify-content: center;
+z-index: 2;
 }
 
 #NotificationBarText{
@@ -28,6 +29,7 @@ position: fixed;
 right: 20px;
 top: 3px;
 cursor: pointer;
+z-index: 3;
 }
 
 #NotificationBarCloseBtn p{

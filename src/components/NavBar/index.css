@@ -1,0 +1,82 @@
+#NavBarContainer{
+    width: 100%;
+    height: 100px;
+    background-color: violet;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+#left, #right{
+    height: 100px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: rgb(232, 232, 232);
+    font-size: xx-large;
+    justify-content: center;
+
+    cursor: pointer;
+
+}
+
+
+#underline{
+    width: 40px;
+    height: 5px;
+    background-color: tomato;
+}
+
+#left li:hover, #right li:hover{
+   color: rgb(255, 255, 255);
+   font-weight: 700;
+}
+
+
+
+#basketCounter{
+    background-color: violet;
+    width: 35px;
+    height: 35px;
+
+    position: relative;
+    bottom: 26px;
+    left: -10px;
+
+
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+}
+
+#basketIcon{
+    height: 60px;
+}
+
+#basketContainer{
+    /* background-color: yellowgreen; */
+    padding-top: 31px;
+}
+
+
+
+/* #underline:hover{
+    background-color: silver;
+} */
+
+#left li p:hover + #underline{
+    color: rgb(207, 169, 169);
+    background-color: yellowgreen;
+    /* font-weight: 700; */
+ }

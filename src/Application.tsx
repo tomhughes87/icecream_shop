@@ -1,6 +1,7 @@
 import React,{ useRef} from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
+import NavBar from './components/NavBar'
 import NotificationBarParent from './components/NotificationBarParent'
 import About from './pages/About'
 import Home from './pages/Home'
@@ -10,8 +11,8 @@ export default function Application() {
   return (
 <>
     <NotificationBarParent />
+    <NavBar />
     
-
     <BrowserRouter>
         <Routes>
             <Route path='/' element={<Home/>}/>
