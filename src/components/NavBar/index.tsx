@@ -10,14 +10,19 @@ export default function NavBar() {
         <ul id='left'>
             <li>
                 <p>Menu</p>
-                <div id="underline"></div>
+                <div className="underline"></div>
             </li>
             
             <li>
                 <p>Promos</p>
-                <div id="underline"></div>
+                <div className="underline"></div>
             </li>
-            <li>Quiz</li>
+
+            <li>
+                <p>Quiz</p>
+                <div className="underline"></div>
+            </li>
+            
         </ul>
 
     {/* <div id='right'>
