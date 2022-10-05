@@ -57,26 +57,26 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #NotificationBarText{
+  #NotificationBarText > p {
     font-size: large;
 }
 }
 
-@media only screen and (max-width: 450px) {
-  #NotificationBarText{
+@media only screen and (max-width: 470px) {
+  #NotificationBarText > p {
     font-size: medium;
 }
 }
 
 @media only screen and (max-width: 420px) {
-  #NotificationBarText{
+  #NotificationBarText > p {
     font-size: small  ;
     /* here text should just go double spaced */
 }
 } 
 
-@media only screen and (max-width: 349px) {
-  #NotificationBarText{
+@media only screen and (max-width: 360px) {
+  #NotificationBarText > p {
     font-size: x-small  ;
 }
 } 
