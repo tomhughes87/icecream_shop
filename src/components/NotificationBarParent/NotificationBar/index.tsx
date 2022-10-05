@@ -12,8 +12,10 @@ export default function NotificationBar({ shown, close }: propTypes) {
             <div id="NotificationBarText">
               <p>Refer a friend and get 25% off your next order!</p>
             </div>
-            <div id="NotificationBarCloseBtn" onClick={close}>
-              <p>x</p>
+            <div 
+              id="NotificationBarCloseBtn" 
+              onClick={close}
+              ><p>x</p>
           </div>
         </div>
     </>
