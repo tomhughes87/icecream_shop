@@ -10,14 +10,14 @@ height: var(--BannerHeight);
 position: sticky;
 top: 0px;
 display: flex;
-align-content: center;
+align-items: center;
 justify-content: center;
+text-align: center;
 z-index: 2;
 }
 
 #NotificationBarText{
     font-weight: 700;
-    line-height: var(--BannerHeight);
     color: white;
     font-size: x-large;
     font-weight: 500;
