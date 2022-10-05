@@ -3,67 +3,80 @@
     
   }
 
-#NotificationBarContainer{
-background-color: rgb(50, 49, 57);
-width: 100%;
-height: var(--BannerHeight);
-position: sticky;
-top: 0px;
-display: flex;
-align-content: center;
-justify-content: center;
-z-index: 2;
+#NotificationBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(50, 49, 57);
+  width: 100%;
+  height: var(--BannerHeight);
+  position: sticky;
+  top: 0px;
+  z-index: 2;
 }
 
-#NotificationBarText{
-    font-weight: 700;
-    line-height: var(--BannerHeight);
-    color: white;
-    font-size: x-large;
-    font-weight: 500;
-    font-family: 'Trebuchet MS', sans-serif;
+#NotificationBarText p, #NotificationBarCloseBtn p{
+  font-weight: 700;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
-#NotificationBarCloseBtn{
-position: fixed;
-right: 20px;
-top: 3px;
-cursor: pointer;
-z-index: 3;
+#NotificationBarCloseBtn {
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  right:10px;
+  margin-left: auto;
+  cursor: pointer;
+  z-index: 3;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  border: 2px solid #fff;
 }
 
-#NotificationBarCloseBtn p{
-    color: white;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: x-large;
-    }
+#NotificationBarCloseBtn > p {
+  line-height: 0;
+}
 
 .Disabled{
   display: none;
-background-color:wheat;
+  background-color:wheat;
 }
-      
+
+.circle {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  border: 3px solid #fff;
+  z-index: 4;
+}
+
 @media only screen and (max-width: 600px) {
-  #NotificationBarText{
+  #NotificationBarText > p {
     font-size: large;
 }
 }
 
-@media only screen and (max-width: 450px) {
-  #NotificationBarText{
+@media only screen and (max-width: 470px) {
+  #NotificationBarText > p {
     font-size: medium;
 }
 }
 
 @media only screen and (max-width: 420px) {
-  #NotificationBarText{
+  #NotificationBarText > p {
     font-size: small  ;
     /* here text should just go double spaced */
 }
 } 
 
-@media only screen and (max-width: 349px) {
-  #NotificationBarText{
+@media only screen and (max-width: 360px) {
+  #NotificationBarText > p {
     font-size: x-small  ;
 }
 } 
