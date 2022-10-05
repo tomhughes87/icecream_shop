@@ -8,7 +8,8 @@ export default function NavBar() {
   return (
     <>
       <div id="NavBar-Container">
-        
+
+     
         <div id="Navbar-Mobile">
           <div className="Hamburger-Menu">
             <input id="menu__toggle" type="checkbox" />
@@ -35,7 +36,7 @@ export default function NavBar() {
             </ul>
           </div>
         </div>
-
+          
 
 
         <ul id="NavBar-LeftSection">
@@ -68,6 +69,8 @@ export default function NavBar() {
           </li>
         </ul>
       </div>
+      <div id="bufferTool">d</div>
+
     </>
   );
 }

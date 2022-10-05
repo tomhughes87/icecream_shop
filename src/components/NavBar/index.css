@@ -15,6 +15,12 @@
     /* background-color: rosybrown; */
 }
 
+
+#bufferTool{
+    height: 0px;
+    display: none;
+  }
+
 #NavBar-LeftSection, #NavBar-RightSection{
     height: 100px;
     width: auto;
@@ -95,6 +101,10 @@
     display: block;
   
 }
+#bufferTool{
+    height: 100px;
+    display: block;
+  }
 
   }
 
@@ -181,6 +191,7 @@
   .menu__item:hover {
     background-color: #CFD8DC;
   }
+
 
 /* END OF BURGER MENU */
 
