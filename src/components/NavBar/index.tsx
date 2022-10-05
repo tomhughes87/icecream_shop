@@ -2,12 +2,18 @@ import React from 'react'
 import './index.css'
 import basketIcong from './basketIcon.png'
 import accountIcon from './accountIcon.png'
+import logo from './logo.png'
 
 export default function NavBar() {
   return (
         <>
     <div id='NavBar-Container'>
+<div id='Navbar-Mobile'>
+</div>
+
         <ul id='NavBar-LeftSection'>
+            <img id="NavBar-Logo" src={logo} alt="Italian Trulli" />
+
             <li className='NavLink-Container'>
                 <p className='NavLink-Text'>Menu</p>
                 <div className="NavLink-Underline"></div>
@@ -29,7 +35,6 @@ export default function NavBar() {
     <ul id='NavBar-RightSection'>
             <li>Account</li>
             
-
                 <li>
             <div id='basketContainer'>
                     <img id="basketIcon" src={basketIcong} alt="Italian Trulli" />
@@ -38,6 +43,10 @@ export default function NavBar() {
                 </li>
             
         </ul>
+
+
+
+
 
 
 
