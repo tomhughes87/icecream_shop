@@ -3,44 +3,39 @@
     
   }
 
-#NotificationBarContainer{
-background-color: rgb(50, 49, 57);
-width: 100%;
-height: var(--BannerHeight);
-position: sticky;
-top: 0px;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-z-index: 2;
+#NotificationBarContainer {
+  background-color: rgb(50, 49, 57);
+  width: 100%;
+  height: var(--BannerHeight);
+  position: sticky;
+  top: 0px;
+  z-index: 2;
 }
 
-#NotificationBarText{
-    font-weight: 700;
-    color: white;
-    font-size: x-large;
-    font-weight: 500;
-    font-family: 'Trebuchet MS', sans-serif;
+.flex-wrapper {
+  width: 100%;
+  height: var(--BannerHeight);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#NotificationBarCloseBtn{
-position: fixed;
-right: 20px;
-top: 3px;
-cursor: pointer;
-z-index: 3;
+#NotificationBarText p, #NotificationBarCloseBtn p{
+  font-weight: 700;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
-#NotificationBarCloseBtn p{
-    color: white;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: x-large;
-    }
+#NotificationBarCloseBtn {
+  cursor: pointer;
+  z-index: 3;
+}
 
 .Disabled{
   display: none;
-background-color:wheat;
+  background-color:wheat;
 }
       
 @media only screen and (max-width: 600px) {
