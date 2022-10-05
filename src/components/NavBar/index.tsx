@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import basketIcong from "./basketIcon.png";
 import accountIcon from "./accountIcon.png";
-import logo from "./logo.png";
+import logo from "./logo.svg";
 
 export default function NavBar() {
   return (
