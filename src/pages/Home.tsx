@@ -13,6 +13,16 @@ export default function Home() {
     <br></br>
     <br></br>
     <SpanImage/>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <SpanImage/>
+    <SpanImage/>
 
 
     </>

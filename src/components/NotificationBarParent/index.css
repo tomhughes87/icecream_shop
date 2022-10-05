@@ -43,3 +43,27 @@ z-index: 3;
 background-color:wheat;
 }
       
+@media only screen and (max-width: 600px) {
+  #NotificationBarText{
+    font-size: large;
+}
+}
+
+@media only screen and (max-width: 450px) {
+  #NotificationBarText{
+    font-size: medium;
+}
+}
+
+@media only screen and (max-width: 420px) {
+  #NotificationBarText{
+    font-size: small  ;
+    /* here text should just go double spaced */
+}
+} 
+
+@media only screen and (max-width: 349px) {
+  #NotificationBarText{
+    font-size: x-small  ;
+}
+} 
